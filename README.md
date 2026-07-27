@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/hasi-sea/leetcode-problems/tree/master/0387-first-unique-character-in-a-string) |
 | [0933-number-of-recent-calls](https://github.com/hasi-sea/leetcode-problems/tree/master/0933-number-of-recent-calls) |
 ## Data Stream
 |  |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/hasi-sea/leetcode-problems/tree/master/0219-contains-duplicate-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/hasi-sea/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/hasi-sea/leetcode-problems/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/hasi-sea/leetcode-problems/tree/master/0387-first-unique-character-in-a-string) |
 ## Two Pointers
 |  |
 | ------- |
@@ -49,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/hasi-sea/leetcode-problems/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/hasi-sea/leetcode-problems/tree/master/0387-first-unique-character-in-a-string) |
 | [0917-reverse-only-letters](https://github.com/hasi-sea/leetcode-problems/tree/master/0917-reverse-only-letters) |
 ## Sliding Window
 |  |
@@ -58,4 +61,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/hasi-sea/leetcode-problems/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/hasi-sea/leetcode-problems/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
