@@ -1,29 +1,28 @@
-import java.util.HashSet;
-import java.util.Set;
-
 class Solution {
-    public int[] intersection(int[] nums1, int[] nums2) {
-        // Add all elements from the first array to a set to remove duplicates
-        Set<Integer> set1 = new HashSet<>();
-        for (int num : nums1) {
-            set1.add(num);
-        }
+    public String reverseOnlyLetters(String s) {
+        char[] chars = s.toCharArray();
+        int left = 0;
+        int right = chars.length - 1;
         
-        // Find common elements and add them to the intersection set
-        Set<Integer> intersect = new HashSet<>();
-        for (int num : nums2) {
-            if (set1.contains(num)) {
-                intersect.add(num);
+        while (left < right) {
+            // If the left character is not a letter, move the left pointer forward
+            if (!Character.isLetter(chars[left])) {
+                left++;
+            } 
+            // If the right character is not a letter, move the right pointer backward
+            else if (!Character.isLetter(chars[right])) {
+                right--;
+            } 
+            // If both are letters, swap them and move both pointers
+            else {
+                char temp = chars[left];
+                chars[left] = chars[right];
+                chars[right] = temp;
+                left++;
+                right--;
             }
         }
         
-        // Convert the intersection set back to an array
-        int[] result = new int[intersect.size()];
-        int i = 0;
-        for (int num : intersect) {
-            result[i++] = num;
-        }
-        
-        return result;
+        return new String(chars);
     }
 }
